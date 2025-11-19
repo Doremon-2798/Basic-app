@@ -1,0 +1,16 @@
+1. To create the dockerfile we need dependencies which will provide by the developers.
+
+2. we need to write the dockerfile
+
+3. we need to create the image from dockerfile.
+
+4. docker build -t <image_name> .
+
+5. run the container from the image using the commands.
+
+6. docker run -d --name <container_name> -p 5000:5000 <image_name>
+
+7. you can check from the browser.
+
+8. whatever in the server.js file same data will appear when we browse in the browser.
+
